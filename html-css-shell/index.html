@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Photo Fetcher</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+
+    <header>
+      <h1>Photo Fetcher</h1>
+    </header>
+
+    <main>
+      <section class="controls">
+        <label class="toggle-label">
+          <div class="toggle-switch">
+            <input type="checkbox" id="grayscale-toggle" />
+            <span class="toggle-track"></span>
+          </div>
+          Make photos grayscale
+        </label>
+
+        <button class="btn" type="button">Fetch New Photos</button>
+      </section>
+
+      <section class="grid">
+        <article class="photo-card">
+          <img src="https://picsum.photos/id/1018/600/450" alt="Photo by Erik Witsoe" />
+          <div class="photo-info">
+            <span class="photo-author">Erik Witsoe</span>
+            <span class="photo-url">https://unsplash.com/photos/1018</span>
+          </div>
+        </article>
+
+        <article class="photo-card">
+          <img src="https://picsum.photos/id/1015/600/450" alt="Photo by Lukas Budimaier" />
+          <div class="photo-info">
+            <span class="photo-author">Lukas Budimaier</span>
+            <span class="photo-url">https://unsplash.com/photos/1015</span>
+          </div>
+        </article>
+
+        <article class="photo-card">
+          <img src="https://picsum.photos/id/1019/600/450" alt="Photo by Jeremiah Berman" />
+          <div class="photo-info">
+            <span class="photo-author">Jeremiah Berman</span>
+            <span class="photo-url">https://unsplash.com/photos/1019</span>
+          </div>
+        </article>
+
+        <article class="photo-card">
+          <img src="https://picsum.photos/id/1022/600/450" alt="Photo by Joseph Barrientos" />
+          <div class="photo-info">
+            <span class="photo-author">Joseph Barrientos</span>
+            <span class="photo-url">https://unsplash.com/photos/1022</span>
+          </div>
+        </article>
+      </section>
+
+      <button class="btn btn-more" type="button">More Photos</button>
+    </main>
+
+    <footer>
+      <p>Powered by <a href="https://picsum.photos">Lorem Picsum</a></p>
+    </footer>
+
+  </body>
+</html>
